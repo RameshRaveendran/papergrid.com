@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: solid 0.1px rgb(41, 40, 40);
+    border-bottom: solid 2px rgb(47, 47, 47);
 }
 
 h5 {
@@ -35,6 +35,8 @@ h5 {
     width: 50%;
     height: 80px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 

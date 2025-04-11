@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+.container {}
+
+.top-header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 0.1px rgb(41, 40, 40);
+}
+
+h5 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-header {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    display: flex;
+
+}
+
+.section1 {
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 80px;
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.grid-logo {
+    width: 150px;
+    margin-left: 150px;
+
+
+}
+.listed-items > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listed-items >ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+a{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.home-underlined{
+    text-decoration: underline;
+}
+.section2{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 150px;
+    gap: 1rem;
+}
+.icons{
+    width: 30px;
+}
+
+.book-list{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 25px;
+    
+}
+
+.books{
+    width: 350px;
+    margin: 20px 20px 0px 25px;
+}
+
+.founder-section{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+.founder-image-main{
+    width: 400px;
+}
+.founder{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    
+    
+}
+h4{
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    font-weight: 400;
+}
+h6{
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: rgb(98, 98, 98);
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    font-size: x-large;
+}
+button{
+    background-color: black;
+    border: 0cap;
+    width: 150px;
+    height: 60px;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.footer1{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(41, 41, 41);
+    
+}
+.footer1content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.unoder-list > li{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.footer2{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer2-contents > ul{
+    margin-top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.non-doted{
+    list-style: none;
+}
